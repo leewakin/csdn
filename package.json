@@ -1,7 +1,7 @@
 {
   "name": "csdn",
   "version": "1.0.0",
-  "description": "csdn良心版",
+  "description": "csdn免登录版",
   "main": "index.js",
   "type": "module",
   "scripts": {
