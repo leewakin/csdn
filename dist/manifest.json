@@ -1,0 +1,13 @@
+{
+  "name": "csdn",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "host_permissions": ["https://blog.csdn.net/"],
+  "content_scripts": [
+    {
+      "runAt": "document_end",
+      "js": ["csdn.cjs.js"],
+      "matches": ["https://blog.csdn.net/*"]
+    }
+  ]
+}
